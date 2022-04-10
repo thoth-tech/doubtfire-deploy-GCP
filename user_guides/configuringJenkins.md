@@ -2,7 +2,7 @@
 
 ## Why Jenkins 
 
-This guide is for how to download and install Jenkins and how to run on GCP (GCP is not yet added)
+This guide is for how to download and install Jenkins and how to run on GCP (GCP is not yet added). The following steps will be useful for learning Jenkins and eventually connecting it a repo
  
 - Running Jenkins locally to get a good idea of how it works. Should be run using Docker as this is how it will run when in GCP
 - Hosting it on GCP, through either Cloud Run or Google Kubernetes Engine (GKE)
