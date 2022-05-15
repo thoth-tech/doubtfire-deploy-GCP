@@ -50,7 +50,7 @@ services:
       - doubtfire_logs:/doubtfire/log
       - ./shared-files:/shared-files
       - ./shared-files/aliases:/etc/aliases:ro
-    command: /bin/bash -c "bundle exec rails s -b 0.0.0.0"
+    command: /bin/bash -c "rm -f /doubtfire/tmp/pids/server.pid; bundle exec rails s -b 0.0.0.0"
     restart: on-failure:5
 
   # Database server - could be external to docker
